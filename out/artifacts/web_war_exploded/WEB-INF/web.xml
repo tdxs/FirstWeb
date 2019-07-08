@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <display-name>web</display-name>
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+        <welcome-file>index.htm</welcome-file>
+        <welcome-file>index.jsp</welcome-file>
+        <welcome-file>default.html</welcome-file>
+        <welcome-file>default.htm</welcome-file>
+        <welcome-file>default.jsp</welcome-file>
+    </welcome-file-list>
+
+    <!-- 商品查询 -->
+    <servlet>
+        <servlet-name>servletShopFindAll</servlet-name>
+        <servlet-class>com.web.servlet.ShopServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>servletShopFindAll</servlet-name>
+        <url-pattern>/servletShopFindAll</url-pattern>
+    </servlet-mapping>
+
+    <!-- 收货地址新增 -->
+    <servlet>
+        <servlet-name>servletAddAddress</servlet-name>
+        <servlet-class>com.web.servlet.AddEntityAddressServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>servletAddAddress</servlet-name>
+        <url-pattern>/servletAddAddress</url-pattern>
+    </servlet-mapping>
+    <!-- 修改收货地址 -->
+    <servlet>
+        <servlet-name>servletUpdateAddress</servlet-name>
+        <servlet-class>com.web.servlet.UpdateAddressServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>servletUpdateAddress</servlet-name>
+        <url-pattern>/servletUpdateAddress</url-pattern>
+    </servlet-mapping>
+    <!-- 查询所有收货地址 -->
+    <servlet>
+        <servlet-name>servletFindAllAddress</servlet-name>
+        <servlet-class>com.web.servlet.FindAllAddressServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>servletFindAllAddress</servlet-name>
+        <url-pattern>/servletFindAllAddress</url-pattern>
+    </servlet-mapping>
+    <!-- 收货地址删除 -->
+    <servlet>
+        <servlet-name>servletDeleteAddress</servlet-name>
+        <servlet-class>com.web.servlet.DeleteAddressServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>servletDeleteAddress</servlet-name>
+        <url-pattern>/servletDeleteAddress</url-pattern>
+    </servlet-mapping>
+    <!-- 根据id查询 -->
+    <servlet>
+        <servlet-name>findByIdAddressServlet</servlet-name>
+        <servlet-class>com.web.servlet.FindByIdAddressServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>findByIdAddressServlet</servlet-name>
+        <url-pattern>/findByIdAddressServlet</url-pattern>
+    </servlet-mapping>
+    <!--提交订单-->
+    <servlet>
+        <servlet-name>addOrder</servlet-name>
+        <servlet-class>com.web.servlet.OrderServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>addOrder</servlet-name>
+        <url-pattern>/addOrder</url-pattern>
+    </servlet-mapping>
+</web-app>

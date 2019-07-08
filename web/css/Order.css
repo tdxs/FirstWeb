@@ -1,0 +1,143 @@
+body html{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+.header{
+    margin-left: 140px;
+    width: 80%;
+    height: 30px;
+    background-color: #292929;
+}
+.header_Two{
+    margin-left: 140px;
+    width: 80%;
+    height: 30px;
+    background-color: #292929;
+}
+.header_Two span{
+    position: relative;
+    top: 4px;
+    font-family: 幼圆;
+    font-size: 16px;
+    color: white;
+}
+.header span{
+   position: relative;
+    top: 4px;
+    font-family: 幼圆;
+    font-size: 16px;
+    color: white;
+}
+h4{
+    width: 100px;
+    padding-left: 30px;
+    font-family: 幼圆;
+    font-size: 15px;
+}
+.centent_Two{
+    margin-left: 145px;
+
+    width: 80%;
+    min-height: 200px;
+}
+.Order{
+    width: 96%;
+    height: 30px;
+    margin-left: 29px;
+    border-bottom: #292929 solid 2px;
+}
+.Order ul{
+    list-style-type: none;
+    width: 100%;
+    background: grey;
+}.Order ul li{
+     float: left;
+     font-size: 14px;
+     color: #292929;
+     margin-left:12%;
+     margin-top: 5px;
+ }
+.OrderMassage{
+    margin: 0 0 0px 28px;
+    min-height: 190px;
+    width: 96%;
+
+    border-left: black 1px solid;
+    border-right: black 1px solid;
+}
+.OrderMassage span{
+    font-family: 宋体;
+    font-size: 16px;
+    color: black;
+}
+.ShopMassage{
+    width: 100%;
+    height: 100px;
+    border-bottom: black 1px dashed;
+
+}
+.ShopMassage-Image{
+    float: left;
+    padding-left: 20px;
+    width: 50px;
+}
+.ShopMassage-Name{
+    float: left;
+    margin: 5px 0 0 22px;
+}
+.ShopMassage-Price{
+    float: left;
+    position: relative;
+    top: 5px;
+    left: 365px;
+    width: 40px;
+    height: 20px;
+}
+.ShopMassage-Count{
+    float: left;
+    position: relative;
+    top: 5px;
+    left: 505px;
+}
+.ShopMassage-seller{
+    padding-top: 50px;
+   padding-left: 140px;
+    width: 133px;
+    height: 20px;
+}
+.ShopMassage-seller span{
+    font-family: 宋体;
+    font-size: 10px;
+    color: #716f6c;
+}
+.ShopMassage-Discount{
+    width: 100px;
+    position: relative;
+    left: 61%;
+    bottom: 63px;
+}
+.ShopMassage-Discount span{
+    font-family: 宋体;
+    font-size: 12px;
+    color: #716f6c;
+}
+.ShopMassage-Computed{
+    width: 35px;
+    position: relative;
+    left: 78%;
+    bottom: 82px;
+}
+.ShopMassage-Computed span{
+    font-family: 宋体;
+    font-size: 16px;
+    font-weight: bold;
+    color: #e54b29;
+}
+.Order-Image{
+    position: relative;
+    left: 140px;
+    top: 50px;
+    width: 100px;
+}

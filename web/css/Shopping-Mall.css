@@ -1,0 +1,192 @@
+[v-cloak] {
+    display: none;
+}
+body,html{
+    padding: 0;
+    margin: 0;
+    background:linear-gradient(to top,#ffffff,#c8c8c8);
+}
+li{
+    list-style-type: none;
+}
+.header{
+    padding: 0;
+    border-bottom: rgba(0,0,0,0.2) 1px solid;
+}
+.header h2{
+    font-family: 华文行楷;
+    font-size: 30px;
+    color: transparent;
+    background: linear-gradient(to right,#000000, #ea663b);
+    -webkit-background-clip: text;
+}
+.main-center{
+    position: relative;
+    left:80px;
+    bottom: 100px;
+    width: 1371px;
+    height: 978px;
+    background-color: rgba(0,0,0,0.0);
+}
+.left{
+    float: left;
+    position: relative;
+    top: 106px;
+    padding-top: 50px;
+    width: 400px;
+    height: 55px;
+    border: 1px solid #716f6c;
+    background-color: rgba(0,0,0,0.5);
+}
+.left .seach{
+    margin-left: 50px;
+    width: 200px;
+    height: 30px;
+}
+.left .seach-but{
+    position: relative;
+    top: 1px;
+    width: 40px;
+    height: 37px;
+}
+.left .left-Field{
+    position: relative;
+    left: 8px;
+    width: 200px;
+}
+.left .left-Exhibition{
+    margin-top: 20px;
+    overflow-y: auto;
+    width: 400px;
+    height: 762px;
+    background-color: white;
+}
+.left .left-Exhibition li{
+    position: relative;
+    bottom: 45px;
+}
+.left-Exhibition .But-Cart{
+    position: relative;
+    z-index: 1;
+    left: 216px;
+    top: 100px;
+    width: 80px;
+    height: 50px;
+    border: #ffffff solid 0px;
+    color: #ffffff;
+    cursor: pointer;
+    background: linear-gradient(to left,#ea8438,#ff7600);
+}
+.left-Exhibition .Goto-Cart{
+    position: relative;
+    z-index: 1;
+    left: 213px;
+    top: 100px;
+    width: 80px;
+    height: 50px;
+    border: #ffffff solid 0px;
+    color: #ffffff;
+    cursor: pointer;
+    background: linear-gradient(to right,#ffbd0b,#ea8438);
+}
+.left-Exhibition #Exhibition-son{
+    position: relative;
+    left: 8px;
+    width: 370px;
+    height: 120px;
+}
+ .Count{
+    width: 165px;
+     height: 34px;
+     background-color: #ffffff;
+    position: relative;
+     left: 208px;
+     bottom: 142px;
+}
+ .Count input{
+     text-align: center;
+     height: 30px;
+     width: 100px;
+     background-color: #f5f5f5;
+     border: #c8c8c8 dashed 1px;
+ }
+ .Count button{
+     width: 25px;
+     height: 30px;
+     background-color: #fafafa;
+     border: #c8c8c8 dashed 1px;
+ }
+.left .left-font-name{
+    position: relative;
+    bottom: 203px;
+    right: 50px;
+
+}.left .left-font-price{
+     position: relative;
+    width: 70px;
+     bottom: 203px;
+     left: 60px;
+     color: #e54b29;
+ }
+ .left .left-Recommend{
+     margin: 40px 0 0 8px;
+     width: 370px;
+     height: 135px;
+ }
+.left .left-Recommend h4{
+    height: 23px;
+    background: linear-gradient(to right,#e35049,#ff7600);
+    color: #ffffff;
+}
+ .left .left-centent{
+     margin-left: 8px;
+     margin-top: 50px;
+     width: 370px;
+     height: 400px;
+ }
+.left .left-centent h4{
+    height: 23px;
+    background: linear-gradient(to right,#e35049,#ff7600);
+    color: white;
+}
+ /*表头导航提示*/
+.Class-Ification{
+    width: 100%;
+    height: 50px;
+    border-bottom: rgba(0,0,0,0.2) 1px solid;
+}
+.main{
+    float: left;
+    position: relative;
+    left: 405px;
+    width: 970px;
+    height: auto;
+    background-color: white;
+}
+.main li{
+    float: left;
+    padding-left: 10px;
+    width: 230px;
+    height: 265px;
+    border-bottom: rgba(0,0,0,0.2) 1px solid;
+}
+.main .main-son:hover{
+    cursor: pointer;
+    box-shadow: 0px 3px 20px 5px #888888;
+    border: #989b9b  2px  solid;
+}
+.main .main-son .img{
+    width: 160px;
+    height: 180px;
+    padding: 15px 0 0 35px;
+}
+.main .main-son .main-son-name{
+    font-size: 1.2rem;
+    color: #453638;
+    margin-top: 10px;
+}
+.foot{
+    width: 100%;
+    height: 60px;
+    border-top: #716f6c 1px dashed;
+}
