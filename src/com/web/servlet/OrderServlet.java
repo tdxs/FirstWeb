@@ -22,7 +22,7 @@ import net.sf.json.JSONObject;
 
 /**
  * 订单表
- * @author zhangyun
+ * 
  *
  */
 public class OrderServlet implements Servlet{
