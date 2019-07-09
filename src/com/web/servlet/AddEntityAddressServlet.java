@@ -15,7 +15,7 @@ import com.web.db.ConnectionDB;
 import com.web.entity.EntityAddress;
 /**
  * 购物车表
- * @author zhangyun
+ *
  *
  */
 public class AddEntityAddressServlet implements Servlet{
